@@ -6,6 +6,12 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/itdefines/hashids"
+        }
+    ],
     "authors": [
         {
             "name": "Vincent Klaiber",
@@ -15,7 +21,7 @@
     "require": {
         "php": "^7.3 || ^8.0",
         "graham-campbell/manager": "^4.4",
-        "hashids/hashids": "^4.1",
+        "hashids/hashids": "dev-backupy1",
         "illuminate/contracts": "^8.0",
         "illuminate/support": "^8.0"
     },
